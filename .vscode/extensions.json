@@ -1,0 +1,9 @@
+{
+    // 推荐安装的扩展，用于提升 C++ 编辑体验和智能提示
+    "recommendations": [
+        "ms-vscode.cpptools",        // C/C++ IntelliSense 和调试
+        "ms-vscode.cmake-tools",    // 如果你用 CMake，推荐安装
+        "twxs.cmake",               // CMake 语法高亮
+        "GitHub.copilot"            // 如果你想要 AI 辅助提示（需登录）
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    // 编辑器提示相关
+    "editor.quickSuggestions": { "other": true, "comments": false, "strings": false },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "inline",
+    "editor.inlineSuggest.enabled": true,
+
+    // C/C++ 扩展配置（使用默认 IntelliSense 引擎）
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.autocomplete": "default",
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**"
+    ],
+
+    // 文件视图和搜索友好设置
+    "files.exclude": {
+        "**/.git": true,
+        "**/.vscode": false
+    },
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
